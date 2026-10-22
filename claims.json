@@ -52,6 +52,7 @@
   "that nets whose balls agree up to some radius are the same net",
   "a new isomorphism algorithm, a new concept, or priority",
   "independent checking of the 93 non-core cases",
+  "a complete search for earlier tables of this kind (the Blatov-Proserpio 2009 supplementary files, the ToposPro TTD collections and the later literature were not checked in full)",
   "human expert review"
  ],
  "claims": [
@@ -59,7 +60,7 @@
    "id": "core-values-independent",
    "kind": "independent-implementation",
    "cases": 6,
-   "statement": "For the six core cases of expected.json, a separately written implementation (Gemmi 0.7.5, NetworkX 3.7, Python standard library) computed the same r_min and r_WL from the same pinned 3dall.txt, and for fly V1 / ylf V1 the same counts of closed walks of length 10 (2,816,008 and 2,816,168).",
+   "statement": "For the six core cases of expected.json, a separately written implementation (Gemmi 0.7.5, NetworkX 3.7, Python standard library) computed the same r_min and r_WL from the same pinned 3dall.txt, and for fly V1 / ylf V1 the same trace(A^10) of the radius-4 balls (closed walks of length 10 summed over all vertices of the ball: 2,816,008 and 2,816,168).",
    "evidence": [
     {
      "path": "expected.json",
@@ -68,8 +69,8 @@
     },
     {
      "path": "VERIFICATION-RECORD.md",
-     "sha256": "caf97b70e58782615844943a072b99f9ae0167e2f6fa0ace0290583664a65444",
-     "bytes": 3977
+     "sha256": "65f7b7e72754968350e193cbc08e7872c7d5a57b3c0376603821a8b405bad04c",
+     "bytes": 4759
     }
    ],
    "reproduce": "python3 -B suite.py run --work work/core --scope core (this package; the independent code is not included)",
@@ -116,7 +117,7 @@
     }
    ],
    "reproduce": "python3 -B suite.py run --work work/main --scope main",
-   "qualification": "outside the six core cases, checked only by this package; the checker does not import the generator but shares algorithm.py and source_io.py with it and was written by the same team",
+   "qualification": "outside the six core cases, checked only by this package; the checker does not import the generator but shares source_io.py (input handling, record parser, source-model definitions) with it and was written by the same team",
    "numbers": {
     "scope": "main",
     "r_WL_greater_than_r_min": 74
@@ -160,7 +161,7 @@
     }
    ],
    "reproduce": "python3 -B suite.py run --work work/all --scope all --with-arc",
-   "qualification": "graphs from the ARC file assume a correspondence with the 3dall.txt record by net name, weighted 10-shell coordination sequence and a unique root; 10 of the 99 cases used such a graph in our runs; this scope is not run in CI",
+   "qualification": "graphs from the ARC file are matched to the 3dall.txt record by net name and weighted 10-shell coordination sequences; an RCSR orbit is a root only if its 10-shell sequence is unique in the record, and the root is the first ARC vertex with that sequence, which is assumed, not proved, to lie in that orbit; 10 of the 99 cases used such a graph in our runs; this scope is not run in CI",
    "numbers": {
     "scope": "all",
     "r_WL_greater_than_r_min": 97,
@@ -171,7 +172,7 @@
    "id": "checker-rejects-corruption",
    "kind": "finite-computation",
    "cases": 6,
-   "statement": "selftest.py runs 15 tests against a verified core work folder: corrupted input bytes, graph, isomorphism, walk count, WL sequence, schema and expected values, a removed certificate, a missing branch of a refutation tree (on two small hand-made graphs), a time limit, a simulated memory error, and a report path that would overwrite the input are each rejected with the documented exit code; a run without network from a local file and a run from a copy of only the manifest files both pass.",
+   "statement": "selftest.py runs 15 tests against a verified core work folder. Twelve are rejection tests: corrupted input bytes, graph, isomorphism, walk count, WL sequence, schema and expected values, a removed certificate, a missing branch of a refutation tree (on two small hand-made graphs), a time limit, a simulated memory error, and a report path that would overwrite the input are each rejected with the documented exit code. Three runs must pass: a re-check of the core folder, a run without network from a local file, and a run of scope main from a copy of only the manifest files.",
    "evidence": [
     {
      "path": "selftest.py",
@@ -198,8 +199,8 @@
    "evidence": [
     {
      "path": "README.md",
-     "sha256": "ba7f62fcf1a89f089e1d400bba924202d4f559edfac4d93693f39433620d2c76",
-     "bytes": 12762
+     "sha256": "77a5cc7ae7fff57d99fbcb36fe43579ad976dcac8d90e0f91445b732464dd1bc",
+     "bytes": 14729
     }
    ],
    "reproduce": "not machine-checked; the independent team also ran both initialisations for ben/cat, tsa/tsg and acl/nih and found the same results"
