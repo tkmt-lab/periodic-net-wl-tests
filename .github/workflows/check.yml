@@ -1,0 +1,33 @@
+name: Check
+on: [push, pull_request, workflow_dispatch]
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    env:
+      PYTHONDONTWRITEBYTECODE: '1'
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Claims file
+        run: python3 -B check_claims.py
+      - name: Core scope (downloads the pinned RCSR file)
+        run: python3 -B suite.py run --work work/ci-core --scope core
+      - name: Main scope
+        run: python3 -B suite.py run --work work/ci --scope main
+      - name: Self-test (rejection tests, relocated main run)
+        run: python3 -B selftest.py --verified-work work/ci-core --out work/ci-selftest
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: verdicts
+          path: |
+            work/*/verification.json
+            work/*/run-summary-*.json
+            work/ci-selftest/selftest.json

@@ -1,0 +1,6 @@
+Code (*.py and the CI workflow): Apache-2.0 (Apache-2.0.txt).
+Expected values, records and original text (JSON, Markdown, CFF): CC BY 4.0 (CC-BY-4.0.txt).
+third-party/sgtable.data is Gavrog's space-group table by Olaf Delgado-Friedrichs, under Apache-2.0
+(third-party/Apache-2.0.txt); see THIRD_PARTY_NOTICES.md.
+Neither licence applies to RCSR data (3dall.txt, RCSRnets.arc) or to anything derived from them at run time.
+RCSR data are not redistributed here. Net names such as "tsa" are RCSR symbols, used only to identify the nets.

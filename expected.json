@@ -1,0 +1,1940 @@
+{
+  "schema": "R019-suite-expected-v1",
+  "cases": [
+    {
+      "id": "1790-V1__2089-V3",
+      "a": {
+        "net": "tsa",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "tsg",
+        "orbit": "V3"
+      },
+      "r_min": 4,
+      "r_WL": 8,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": true,
+      "prior_source_category": "ARC-assisted",
+      "main": true
+    },
+    {
+      "id": "2031-V1__2032-V1",
+      "a": {
+        "net": "fly",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "ylf",
+        "orbit": "V1"
+      },
+      "r_min": 4,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 10,
+        "count_a": 2816008,
+        "count_b": 2816168
+      },
+      "core": true,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2031-V2__2032-V2",
+      "a": {
+        "net": "fly",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "ylf",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "1-WL"
+      },
+      "core": true,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "3143-V1__3395-V1",
+      "a": {
+        "net": "acl",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "nih",
+        "orbit": "V1"
+      },
+      "r_min": 1,
+      "r_WL": 2,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": true,
+      "prior_source_category": "coordinate-rounding-model",
+      "main": true
+    },
+    {
+      "id": "565-V1__566-V1",
+      "a": {
+        "net": "sxb",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "sxc",
+        "orbit": "V1"
+      },
+      "r_min": 2,
+      "r_WL": 2,
+      "proof_summary": {
+        "method": "1-WL"
+      },
+      "core": true,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "574-V2__575-V2",
+      "a": {
+        "net": "ben",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "cat",
+        "orbit": "V2"
+      },
+      "r_min": 3,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": true,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1290-V1__1124-V1",
+      "a": {
+        "net": "fff",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "jsa",
+        "orbit": "V1"
+      },
+      "r_min": 5,
+      "r_WL": 7,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1290-V3__1124-V2",
+      "a": {
+        "net": "fff",
+        "orbit": "V3"
+      },
+      "b": {
+        "net": "jsa",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1659-V2__1819-V1",
+      "a": {
+        "net": "bor-c",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "mmm",
+        "orbit": "V1"
+      },
+      "r_min": 4,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1659-V2__1819-V2",
+      "a": {
+        "net": "bor-c",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "mmm",
+        "orbit": "V2"
+      },
+      "r_min": 5,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1659-V2__2027-V2",
+      "a": {
+        "net": "bor-c",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "eed",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1659-V2__2181-V2",
+      "a": {
+        "net": "bor-c",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1659-V2__2181-V3",
+      "a": {
+        "net": "bor-c",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b",
+        "orbit": "V3"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1659-V2__2182-V2",
+      "a": {
+        "net": "bor-c",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b3",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1659-V2__2182-V3",
+      "a": {
+        "net": "bor-c",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b3",
+        "orbit": "V3"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1659-V2__2182-V4",
+      "a": {
+        "net": "bor-c",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b3",
+        "orbit": "V4"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1659-V2__549-V2",
+      "a": {
+        "net": "bor-c",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1661-V2__225-V1",
+      "a": {
+        "net": "bel",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "ucn",
+        "orbit": "V1"
+      },
+      "r_min": 4,
+      "r_WL": 7,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1819-V2__2181-V2",
+      "a": {
+        "net": "mmm",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1819-V2__2181-V3",
+      "a": {
+        "net": "mmm",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b",
+        "orbit": "V3"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1819-V2__2182-V2",
+      "a": {
+        "net": "mmm",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b3",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1819-V2__2182-V3",
+      "a": {
+        "net": "mmm",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b3",
+        "orbit": "V3"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1819-V2__2182-V4",
+      "a": {
+        "net": "mmm",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b3",
+        "orbit": "V4"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1819-V2__549-V2",
+      "a": {
+        "net": "mmm",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1844-V1__739-V2",
+      "a": {
+        "net": "msq",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "ocu",
+        "orbit": "V2"
+      },
+      "r_min": 2,
+      "r_WL": 3,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 4,
+        "count_a": 1200,
+        "count_b": 1168
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1856-V2__1857-V5",
+      "a": {
+        "net": "cdj",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "cdk",
+        "orbit": "V5"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1857-V4__1813-V1",
+      "a": {
+        "net": "cdk",
+        "orbit": "V4"
+      },
+      "b": {
+        "net": "edq",
+        "orbit": "V1"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1858-V19__1857-V4",
+      "a": {
+        "net": "abb",
+        "orbit": "V19"
+      },
+      "b": {
+        "net": "cdk",
+        "orbit": "V4"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1859-V17__1857-V5",
+      "a": {
+        "net": "aab",
+        "orbit": "V17"
+      },
+      "b": {
+        "net": "cdk",
+        "orbit": "V5"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1861-V1__1860-V1",
+      "a": {
+        "net": "idp",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "pdp",
+        "orbit": "V1"
+      },
+      "r_min": 3,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1861-V2__1860-V2",
+      "a": {
+        "net": "idp",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "pdp",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 12,
+        "count_a": 8478648,
+        "count_b": 8477496
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2026-V2__2068-V1",
+      "a": {
+        "net": "eee",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "wys",
+        "orbit": "V1"
+      },
+      "r_min": 3,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2027-V2__1819-V2",
+      "a": {
+        "net": "eed",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "mmm",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2027-V2__2181-V2",
+      "a": {
+        "net": "eed",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b",
+        "orbit": "V2"
+      },
+      "r_min": 5,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2027-V2__2181-V3",
+      "a": {
+        "net": "eed",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b",
+        "orbit": "V3"
+      },
+      "r_min": 5,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2027-V2__2182-V2",
+      "a": {
+        "net": "eed",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b3",
+        "orbit": "V2"
+      },
+      "r_min": 5,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2027-V2__2182-V3",
+      "a": {
+        "net": "eed",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b3",
+        "orbit": "V3"
+      },
+      "r_min": 5,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2027-V2__2182-V4",
+      "a": {
+        "net": "eed",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b3",
+        "orbit": "V4"
+      },
+      "r_min": 5,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2027-V2__549-V2",
+      "a": {
+        "net": "eed",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo",
+        "orbit": "V2"
+      },
+      "r_min": 5,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2027-V3__1819-V1",
+      "a": {
+        "net": "eed",
+        "orbit": "V3"
+      },
+      "b": {
+        "net": "mmm",
+        "orbit": "V1"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2027-V3__2181-V2",
+      "a": {
+        "net": "eed",
+        "orbit": "V3"
+      },
+      "b": {
+        "net": "tbo-b",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2027-V3__2181-V3",
+      "a": {
+        "net": "eed",
+        "orbit": "V3"
+      },
+      "b": {
+        "net": "tbo-b",
+        "orbit": "V3"
+      },
+      "r_min": 4,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2027-V3__2182-V2",
+      "a": {
+        "net": "eed",
+        "orbit": "V3"
+      },
+      "b": {
+        "net": "tbo-b3",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2027-V3__2182-V3",
+      "a": {
+        "net": "eed",
+        "orbit": "V3"
+      },
+      "b": {
+        "net": "tbo-b3",
+        "orbit": "V3"
+      },
+      "r_min": 4,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2027-V3__2182-V4",
+      "a": {
+        "net": "eed",
+        "orbit": "V3"
+      },
+      "b": {
+        "net": "tbo-b3",
+        "orbit": "V4"
+      },
+      "r_min": 4,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2027-V3__549-V2",
+      "a": {
+        "net": "eed",
+        "orbit": "V3"
+      },
+      "b": {
+        "net": "tbo",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2062-V1__1798-V2",
+      "a": {
+        "net": "tsh",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "zxc",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2224-V3__1777-V3",
+      "a": {
+        "net": "jaj",
+        "orbit": "V3"
+      },
+      "b": {
+        "net": "ofp",
+        "orbit": "V3"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "2650-V1__2675-V2",
+      "a": {
+        "net": "cep",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "cet",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-rounding-model",
+      "main": true
+    },
+    {
+      "id": "2650-V2__2675-V3",
+      "a": {
+        "net": "cep",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "cet",
+        "orbit": "V3"
+      },
+      "r_min": 3,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-rounding-model",
+      "main": true
+    },
+    {
+      "id": "2650-V2__2676-V3",
+      "a": {
+        "net": "cep",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "cer",
+        "orbit": "V3"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-rounding-model",
+      "main": true
+    },
+    {
+      "id": "2676-V3__2675-V3",
+      "a": {
+        "net": "cer",
+        "orbit": "V3"
+      },
+      "b": {
+        "net": "cet",
+        "orbit": "V3"
+      },
+      "r_min": 3,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-rounding-model",
+      "main": true
+    },
+    {
+      "id": "2698-V2__2699-V2",
+      "a": {
+        "net": "ces",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "ceu",
+        "orbit": "V2"
+      },
+      "r_min": 3,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-rounding-model",
+      "main": true
+    },
+    {
+      "id": "3143-V2__3399-V1",
+      "a": {
+        "net": "acl",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "nix",
+        "orbit": "V1"
+      },
+      "r_min": 2,
+      "r_WL": 3,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-rounding-model",
+      "main": true
+    },
+    {
+      "id": "3161-V1__3619-V2",
+      "a": {
+        "net": "bob",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "tbn",
+        "orbit": "V2"
+      },
+      "r_min": 2,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "3161-V3__3387-V2",
+      "a": {
+        "net": "bob",
+        "orbit": "V3"
+      },
+      "b": {
+        "net": "nbr",
+        "orbit": "V2"
+      },
+      "r_min": 2,
+      "r_WL": 3,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 4,
+        "count_a": 584,
+        "count_b": 600
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "3163-V2__3617-V3",
+      "a": {
+        "net": "boc",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbm",
+        "orbit": "V3"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "3165-V4__3241-V1",
+      "a": {
+        "net": "bof",
+        "orbit": "V4"
+      },
+      "b": {
+        "net": "ffl",
+        "orbit": "V1"
+      },
+      "r_min": 2,
+      "r_WL": 3,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 4,
+        "count_a": 1416,
+        "count_b": 1512
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "3377-V1__3383-V1",
+      "a": {
+        "net": "nbb",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "nbh",
+        "orbit": "V1"
+      },
+      "r_min": 2,
+      "r_WL": 3,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-rounding-model",
+      "main": true
+    },
+    {
+      "id": "3387-V2__3619-V3",
+      "a": {
+        "net": "nbr",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbn",
+        "orbit": "V3"
+      },
+      "r_min": 2,
+      "r_WL": 3,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 4,
+        "count_a": 600,
+        "count_b": 584
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "3437-V1__1559-V2",
+      "a": {
+        "net": "pcj",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "url",
+        "orbit": "V2"
+      },
+      "r_min": 2,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 6,
+        "count_a": 2976,
+        "count_b": 2952
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "3439-V1__3483-V3",
+      "a": {
+        "net": "pck",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "pyy",
+        "orbit": "V3"
+      },
+      "r_min": 2,
+      "r_WL": 3,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 4,
+        "count_a": 2220,
+        "count_b": 2172
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "3531-V2__3541-V3",
+      "a": {
+        "net": "scj",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "scw",
+        "orbit": "V3"
+      },
+      "r_min": 3,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "3746-V2__1291-V2",
+      "a": {
+        "net": "okn",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "ttt",
+        "orbit": "V2"
+      },
+      "r_min": 2,
+      "r_WL": 3,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 6,
+        "count_a": 8544,
+        "count_b": 8592
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "539-V2__580-V2",
+      "a": {
+        "net": "cor",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "hea",
+        "orbit": "V2"
+      },
+      "r_min": 3,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "542-V2__1819-V1",
+      "a": {
+        "net": "bor",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "mmm",
+        "orbit": "V1"
+      },
+      "r_min": 4,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "542-V2__1819-V2",
+      "a": {
+        "net": "bor",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "mmm",
+        "orbit": "V2"
+      },
+      "r_min": 5,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "542-V2__2027-V2",
+      "a": {
+        "net": "bor",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "eed",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "542-V2__2181-V2",
+      "a": {
+        "net": "bor",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "542-V2__2181-V3",
+      "a": {
+        "net": "bor",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b",
+        "orbit": "V3"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "542-V2__2182-V2",
+      "a": {
+        "net": "bor",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b3",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "542-V2__2182-V3",
+      "a": {
+        "net": "bor",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b3",
+        "orbit": "V3"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "542-V2__2182-V4",
+      "a": {
+        "net": "bor",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo-b3",
+        "orbit": "V4"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "542-V2__549-V2",
+      "a": {
+        "net": "bor",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tbo",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "548-V1__547-V1",
+      "a": {
+        "net": "gar",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "iac",
+        "orbit": "V1"
+      },
+      "r_min": 2,
+      "r_WL": 3,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 4,
+        "count_a": 360,
+        "count_b": 376
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "573-V1__1738-V1",
+      "a": {
+        "net": "pha",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "xbh",
+        "orbit": "V1"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "coordinate-literal",
+      "main": true
+    },
+    {
+      "id": "1896-V2__1291-V2",
+      "a": {
+        "net": "fon",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "ttt",
+        "orbit": "V2"
+      },
+      "r_min": 2,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "2006-V2__2090-V1",
+      "a": {
+        "net": "jjt",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "tsb",
+        "orbit": "V1"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "2026-V2__1493-V2",
+      "a": {
+        "net": "eee",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "xmz",
+        "orbit": "V2"
+      },
+      "r_min": 3,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "2038-V2__1723-V2",
+      "a": {
+        "net": "tsj",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "xat",
+        "orbit": "V2"
+      },
+      "r_min": 2,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 4,
+        "count_a": 348,
+        "count_b": 324
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "2068-V1__1493-V2",
+      "a": {
+        "net": "wys",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "xmz",
+        "orbit": "V2"
+      },
+      "r_min": 3,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "2282-V2__1782-V2",
+      "a": {
+        "net": "kle",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "ttv",
+        "orbit": "V2"
+      },
+      "r_min": 2,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "2282-V2__2764-V2",
+      "a": {
+        "net": "kle",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "kxe",
+        "orbit": "V2"
+      },
+      "r_min": 4,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "2300-V1__2648-V3",
+      "a": {
+        "net": "ala",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "ceo",
+        "orbit": "V3"
+      },
+      "r_min": 3,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "2300-V2__2648-V1",
+      "a": {
+        "net": "ala",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "ceo",
+        "orbit": "V1"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "2343-V1__2312-V3",
+      "a": {
+        "net": "key",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "kez",
+        "orbit": "V3"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "2352-V1__2354-V1",
+      "a": {
+        "net": "dnm",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "dnn",
+        "orbit": "V1"
+      },
+      "r_min": 2,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 8,
+        "count_a": 132288,
+        "count_b": 132240
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "2352-V2__2257-V1",
+      "a": {
+        "net": "dnm",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "urx",
+        "orbit": "V1"
+      },
+      "r_min": 4,
+      "r_WL": 6,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "2425-V1__1994-V2",
+      "a": {
+        "net": "ats",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "tsn",
+        "orbit": "V2"
+      },
+      "r_min": 2,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 4,
+        "count_a": 1296,
+        "count_b": 1320
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "259-V1__368-V1",
+      "a": {
+        "net": "cfc",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "lon-b",
+        "orbit": "V1"
+      },
+      "r_min": 3,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "259-V1__368-V2",
+      "a": {
+        "net": "cfc",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "lon-b",
+        "orbit": "V2"
+      },
+      "r_min": 3,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "259-V1__54-V1",
+      "a": {
+        "net": "cfc",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "lon",
+        "orbit": "V1"
+      },
+      "r_min": 3,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 8,
+        "count_a": 29504,
+        "count_b": 29552
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "2656-V2__1540-V2",
+      "a": {
+        "net": "epx",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "urj",
+        "orbit": "V2"
+      },
+      "r_min": 2,
+      "r_WL": 3,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 4,
+        "count_a": 664,
+        "count_b": 680
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "2764-V2__1782-V2",
+      "a": {
+        "net": "kxe",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "ttv",
+        "orbit": "V2"
+      },
+      "r_min": 2,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "449-V1__513-V1",
+      "a": {
+        "net": "acs",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "nia",
+        "orbit": "V1"
+      },
+      "r_min": 2,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "513-V2__2228-V2",
+      "a": {
+        "net": "nia",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "ste",
+        "orbit": "V2"
+      },
+      "r_min": 2,
+      "r_WL": 4,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 4,
+        "count_a": 660,
+        "count_b": 636
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "583-V2__587-V2",
+      "a": {
+        "net": "gra",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "hms",
+        "orbit": "V2"
+      },
+      "r_min": 3,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "individualization-refinement-refutation"
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "593-V2__2147-V1",
+      "a": {
+        "net": "hms-e",
+        "orbit": "V2"
+      },
+      "b": {
+        "net": "znz",
+        "orbit": "V1"
+      },
+      "r_min": 3,
+      "r_WL": 5,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 8,
+        "count_a": 1317504,
+        "count_b": 1317456
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    },
+    {
+      "id": "726-V1__762-V1",
+      "a": {
+        "net": "hcp",
+        "orbit": "V1"
+      },
+      "b": {
+        "net": "tcj",
+        "orbit": "V1"
+      },
+      "r_min": 1,
+      "r_WL": 2,
+      "proof_summary": {
+        "method": "closed-walk-trace",
+        "walk_length": 4,
+        "count_a": 1464,
+        "count_b": 1440
+      },
+      "core": false,
+      "prior_source_category": "ARC-assisted",
+      "main": false
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+cff-version: 1.2.0
+message: "Cite this release by version. Please also cite the RCSR database paper for the data."
+title: "Rooted periodic-net identification tests (RCSR, 1-WL)"
+type: software
+version: 1.0.0
+date-released: 2026-10-23
+authors:
+  - family-names: Takimoto
+    given-names: Tatsuhiko
+    affiliation: Independent researcher
+license: Apache-2.0
+repository-code: "https://github.com/tkmt-lab/periodic-net-wl-tests"
+keywords:
+  - periodic nets
+  - RCSR
+  - graph isomorphism
+  - Weisfeiler-Leman
+  - colour refinement
+  - test cases
+references:
+  - type: article
+    title: "The Reticular Chemistry Structure Resource (RCSR) Database of, and Symbols for, Crystal Nets"
+    authors:
+      - family-names: O'Keeffe
+        given-names: M.
+      - family-names: Peskov
+        given-names: M. A.
+      - family-names: Ramsden
+        given-names: S. J.
+      - family-names: Yaghi
+        given-names: O. M.
+    journal: "Accounts of Chemical Research"
+    volume: 41
+    start: 1782
+    end: 1789
+    year: 2008
+    doi: 10.1021/ar800124u
