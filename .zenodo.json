@@ -1,0 +1,28 @@
+{
+  "title": "Rooted periodic-net identification tests (RCSR, 1-WL)",
+  "upload_type": "dataset",
+  "description": "Test cases built from crystal nets in a pinned version of the RCSR database (RCSR-content commit 580316c9, file 3dall.txt, SHA-256 c143e8aa...2743). Each case is a pair of nets with a root vertex in each and records two radii: r_min, the smallest radius at which the two rooted balls (induced subgraphs within r edges of the root) are not isomorphic, and r_WL, the smallest radius at which stable 1-WL colour refinement separates them. There are 99 cases; in 97 of them r_WL is larger than r_min, with the largest gap 4 (tsa V1 / tsg V3: 4 and 8). The package contains code (Python standard library) and expected values with evidence summaries; the RCSR file is downloaded by the user and checked against its hash, and no RCSR data is redistributed. The 6 core cases were also checked by a separately written implementation; the other cases are checked by this package's own checker. The cases concern bare graphs (vertices, edges, root) and say nothing about methods that also use species, coordinates or distances; no claim is made about graph neural networks in general or about a database-wide maximum. The idea of comparing nets by their largest equal shells goes back to Blatov and Proserpio (2009). Code: Apache 2.0; expected values and text: CC BY 4.0; neither applies to RCSR data.",
+  "creators": [
+    {
+      "name": "Tatsuhiko Takimoto",
+      "affiliation": "Independent researcher"
+    }
+  ],
+  "version": "1.0.0",
+  "license": "cc-by-4.0",
+  "keywords": [
+    "periodic nets",
+    "RCSR",
+    "graph isomorphism",
+    "Weisfeiler-Leman",
+    "1-WL",
+    "test suite"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/tkmt-lab/periodic-net-wl-tests",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}
